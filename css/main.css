@@ -57,6 +57,22 @@ a {
 .navContainer {
     display: flex;
     column-gap: 5px;
+
+}
+.hamburgerMenu {
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 1024px) {
+    .navContainer {
+        display: none;
+    }
+    .contactContainer:first-of-type {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: block;
+    }
 }
 .navItem {
     cursor: pointer;
