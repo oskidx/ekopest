@@ -63,17 +63,6 @@ a {
     display: none;
     cursor: pointer;
 }
-@media (max-width: 1024px) {
-    .navContainer {
-        display: none;
-    }
-    .contactContainer:first-of-type {
-        display: none;
-    }
-    .hamburgerMenu {
-        display: block;
-    }
-}
 .navItem {
     cursor: pointer;
     font-weight: 800;
@@ -134,4 +123,18 @@ a {
     font-size: 20px;
     padding: 10px;
     margin: 100px auto auto;
+}
+@media (max-width: 1024px) {
+    .navContainer {
+        display: none;
+    }
+    .contactContainer:first-of-type {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: block;
+    }
+    .asd {
+        margin-top: 50px;
+    }
 }
